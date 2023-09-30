@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p><b>Komponen yang membangun sistem komputer</b></p>
+    <hr />
+    <ol>
+      <li>Hardware</li>
+      <ol type="A">
+        <li>Input Device</li>
+        <ul type="square">
+          <li>Mouse</li>
+          <li>Keyboard</li>
+          <li>Joystick</li>
+        </ul>
+        <li>Output Device</li>
+        <ol type="i">
+          <li>Monitor</li>
+          <li>Printer</li>
+          <li>Speaker</li>
+        </ol>
+        <li>Process</li>
+        <ul type="circle">
+          <li>Central Processing Unit</li>
+        </ul>
+      </ol>
+      <li>Software</li>
+      <ol type="a">
+        <li>Operating System</li>
+        <ul type="circle">
+          <li>Windows</li>
+          <li>Unix</li>
+          <li>Linux</li>
+        </ul>
+        <li>Programing Language</li>
+        <ul type="square">
+          <li>Delphi</li>
+          <li>Cobol</li>
+          <li>RPG</li>
+        </ul>
+        <li>Utility Program</li>
+      <ol>
+    </ol>
+  </body>
+</html>
