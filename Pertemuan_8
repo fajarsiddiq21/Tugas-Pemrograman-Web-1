@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Latihan Pembuatan Form</title>
+  </head>
+  <body>
+    <!--NIM, NAMA, JENIS KELAMIN, AGAMA, STATUS, JURUSAN, KOMENTAR.-->
+    <h1>Free Registration</h1>
+    <hr />
+    <form>
+      <pre>
+            <label for="name">Nama          :</label> <input type="text" id="name" name="name" size="20" />
+
+            <label for="Tgl">Tgl Lahir     :</label> <input type="text" id="Tgl" name="Tgl" size="2" maxlength="2" /> / <select id="Januari">
+              <option value="Januari">Januari</option>
+              <option value="Februari">Februari</option>
+              <option value="Maret">Maret</option>
+              <option value="April">April</option>
+              <option value="Mei">Mei</option>
+              <option value="Juni">Juni</option>
+              <option value="Juli">Juli</option>
+              <option value="Agustus">Agustus</option>
+              <option value="September">September</option>
+              <option value="Oktober">Oktober</option>
+              <option value="November">November</option>
+              <option value="December">Desember</option>
+            </select> / <input type="text" id="Tahun" name="Tahun" size="4" maxlength="4" />
+
+            <label for="fname">Alamat        : </label>
+                            <textarea name="ket" rows="3" cols="30"></textarea>
+            
+            <label for="fname">Kota          :</label> <input type="text" id="fname" name="fname" size="20" maxlength="20"/>
+
+            <label for="fname">Pekerjaan     : </label><select name="jurusan" Size="1">
+                <option value ="Teknik Informatika"> Tani </option>
+                <option value ="Manajemen Informatika"> Berkuda </option>
+               </select>
+
+            <label for="fname">Jenis Kelamin :</label> <input type="radio" id="css" name="fav_language" value="CSS">Laki-Laki<input type="radio" id="css" name="fav_language" value="CSS">Perempuan
+
+            <label for="fname">Hobby         : </label> <input type="checkbox" name="status" value="kawin">Reading 
+                             <input type="checkbox" name="status" value="belumkawin">Sport
+                             <input type="checkbox" name="status" value="belumkawin">Singing
+                             <input type="checkbox" name="status" value="belumkawin">Traveling <br>
+            <input type="submit" value="kirim" /> <input type="reset" value="cancel" />
+        </pre>
+    </form>
+  </body>
+</html>
